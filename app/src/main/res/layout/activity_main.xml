@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lee="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.asheng.rotateMenu.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello world" />
+
+    <cn.asheng.rotateMenu.view.RotateMenuView
+        android:id="@+id/view_create"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        lee:back_ground_color="#f2ffffff"
+        lee:center_add_src="@mipmap/add_publish_fragment_bg"
+        lee:center_rotate="225"
+        lee:horizontal_margin="30dp"
+        lee:item_rotate="360"
+        lee:vertical_margin="50dp"></cn.asheng.rotateMenu.view.RotateMenuView>
+</RelativeLayout>
